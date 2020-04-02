@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aurelie.controller.ColorController">
+   <children>
+      <Pane layoutX="15.0" layoutY="67.0" prefHeight="295.0" prefWidth="574.0">
+         <children>
+            <Label layoutX="27.0" layoutY="30.0" text="Red" />
+            <Label layoutX="27.0" layoutY="105.0" text="Green" />
+            <Label layoutX="27.0" layoutY="174.0" text="Blue" />
+            <Label layoutX="296.0" layoutY="30.0" text="Hex" />
+            <Slider fx:id="sliderRed" blockIncrement="1.0" layoutX="27.0" layoutY="59.0" max="255.0" value="213.0" />
+            <Slider fx:id="sliderGreen" blockIncrement="1.0" layoutX="27.0" layoutY="133.0" max="255.0" value="141.0" />
+            <Slider fx:id="sliderBlue" blockIncrement="1.0" layoutX="27.0" layoutY="202.0" max="255.0" value="53.0" />
+            <TextField fx:id="textFieldHex" layoutX="296.0" layoutY="53.0" text="#D58D35" />
+            <TextArea fx:id="textAreaColor" layoutX="276.0" layoutY="93.0" prefHeight="105.0" prefWidth="265.0" style="-fx-control-inner-background: #D58D35;" />
+            <TextField fx:id="textFieldRed" layoutX="182.0" layoutY="53.0" prefHeight="27.0" prefWidth="63.0" text="213" />
+            <TextField fx:id="textFieldGreen" layoutX="182.0" layoutY="127.0" prefHeight="27.0" prefWidth="63.0" text="141" />
+            <TextField fx:id="textFieldBlue" layoutX="182.0" layoutY="196.0" prefHeight="27.0" prefWidth="63.0" text="53" />
+            <TextArea fx:id="textAreaColor1" layoutX="273.0" layoutY="210.0" prefHeight="35.0" prefWidth="24.0" />
+            <TextArea fx:id="textAreaColor2" layoutX="329.0" layoutY="210.0" prefHeight="35.0" prefWidth="24.0" />
+            <TextArea fx:id="textAreaColor3" layoutX="382.0" layoutY="210.0" prefHeight="35.0" prefWidth="24.0" />
+            <TextArea fx:id="textAreaColor4" layoutX="441.0" layoutY="210.0" prefHeight="35.0" prefWidth="24.0" />
+            <TextArea fx:id="textAreaColor5" layoutX="495.0" layoutY="210.0" prefHeight="35.0" prefWidth="24.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
